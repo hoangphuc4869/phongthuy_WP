@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Oswald", sans-serif;
+}
+
+ul,
+ol {
+  padding-left: 0;
+  margin-bottom: 0;
+  font-family: "Oswald", sans-serif;
+}
+
+input:focus {
+  outline: none;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+select:focus {
+  outline: none;
+}
+
+/*input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}*/
+
+p {
+  margin: 0;
+  padding: 0;
+  font-family: "Oswald", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+.mr-top {
+  margin-top: 70px;
+}
+
+.mr-bottom {
+  margin-bottom: 70px;
+}

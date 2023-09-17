@@ -1,0 +1,298 @@
+/*menu pc*/
+
+.header-pc {
+  background-color: #eca60e;
+  padding: 15px 0;
+  font-family: "Oswald", sans-serif;
+}
+
+.sticky-menu {
+  /*background-color: rgba(16, 25, 40, 0.8);*/
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 7;
+}
+
+.img_logo {
+  width: 200px;
+  object-fit: scale-down;
+}
+
+.bg-menu-pc,
+.menu-pc,
+.menu-icon {
+  display: flex;
+  align-items: center;
+}
+
+.bg-menu-pc {
+  justify-content: space-between;
+}
+
+.menu-pc,
+.menu-icon {
+  list-style: none;
+}
+
+.menu-pc li {
+  padding: 0 20px;
+}
+
+.menu-pc a {
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0.025em;
+  color: black;
+  transition: 0.4s all linear;
+}
+
+.menu-pc a:hover {
+  color: #fff;
+}
+
+.current_page_item a {
+  color: #fff;
+}
+
+.menu-icon {
+  color: black;
+  font-size: 17px;
+}
+
+.menu-icon li {
+  cursor: pointer;
+  padding: 0 5px;
+}
+
+.display-mobile {
+  display: none;
+}
+
+/*giỏ hàng*/
+
+.cart-home {
+  color: black;
+}
+
+.cart-home:hover {
+  color: white;
+}
+
+.quantity-home {
+  font-size: 12px;
+}
+
+@media (max-width: 991px) {
+  .display-pc {
+    display: none;
+  }
+
+  .display-mobile {
+    display: block;
+  }
+
+  .menu-icon {
+    font-size: 20px;
+  }
+
+  .menu-icon li {
+    padding: 0 10px;
+  }
+
+  .bg-menu-mobile {
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(7px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 5;
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: transform 0.5s ease, opacity 1s ease;
+  }
+
+  .active-mobile {
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+  .menu-mobile {
+    /* background-color: rgba(0, 0, 0, 0.7); */
+    width: fit-content;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    bottom: 0;
+    list-style: none;
+    padding: 0 25px;
+    overflow: auto;
+    font-family: "Oswald", sans-serif;
+  }
+  .menu-mobile {
+    height: fit-content;
+  }
+  .menu-mobile li {
+    padding: 10px 0;
+    text-align: left;
+  }
+
+  .menu-mobile a {
+    position: relative;
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: transparent;
+    -webkit-text-stroke: 1px rgba(255, 255, 255, 0.5);
+    padding: 0 10px;
+  }
+
+  .menu-mobile a:hover {
+    -webkit-text-stroke: unset;
+  }
+
+  .menu-mobile a::before {
+    content: attr(data-text);
+    position: absolute;
+    width: 100%;
+    color: #daba07;
+    overflow: hidden;
+    transition: 0.5s;
+    opacity: 0;
+  }
+
+  .menu-mobile a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    border-right: 3px solid #daba07;
+    transition: 0.5s;
+  }
+  .menu-mobile a:hover::before {
+    opacity: 1;
+  }
+  .menu-mobile a:hover::after {
+    width: 100%;
+  }
+}
+
+/*footer*/
+
+.bg-footer {
+  background-color: #eca60e;
+
+  padding: 50px 0;
+  font-family: "Oswald", sans-serif;
+}
+
+.title-footer {
+  color: #3785d4;
+  font-size: 24px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.text-footer {
+  color: black;
+  font-size: 15px;
+  line-height: 24px;
+  margin-top: 25px;
+}
+
+.text-footer h1,
+.text-footer h2,
+.text-footer h3,
+.text-footer h4,
+.text-footer h5,
+.text-footer h6 {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+/*menu footer*/
+
+.menu-footer {
+  list-style: none;
+  line-height: 2;
+  padding-left: 40px;
+}
+
+.menu-footer a {
+  font-size: 16px;
+  color: black;
+  transition: 0.3s;
+}
+
+.menu-footer a:hover {
+  color: #0d6efd;
+}
+
+.contact-footer {
+  font-size: 18px;
+  color: black;
+  line-height: 24px;
+}
+
+.list-contact-footer {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.list-contact-footer li {
+  padding-right: 20px;
+}
+
+.list-contact-footer a {
+  color: black;
+  font-size: 22px;
+}
+
+.back-top {
+  background-color: #9d4d4a;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  z-index: 5;
+  font-size: 15px;
+  color: white;
+  padding: 8px 18px;
+  transition: 0.3s;
+}
+
+.back-top:hover {
+  color: #fff;
+  background-color: #7f7f7f;
+}
+
+@media (max-width: 991px) {
+  .text-footer {
+    margin-bottom: 20px;
+  }
+
+  .menu-footer {
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 740px) {
+  .menu-footer {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 450px) {
+  .back-top {
+    display: none;
+  }
+}

@@ -1,0 +1,58 @@
+2023-09-15T12:41:52+00:00 CRITICAL Uncaught Error: Call to a member function get_attributes() on null in C:\xampp\htdocs\phongthuy\wp-content\themes\phongthuy_themes\product.php:18
+Stack trace:
+#0 C:\xampp\htdocs\phongthuy\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\phongthuy\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\phongthuy\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\phongthuy\wp-content\themes\phongthuy_themes\product.php on line 18
+
+2023-09-15T12:42:37+00:00 CRITICAL Uncaught Error: Call to a member function get_attributes() on null in C:\xampp\htdocs\phongthuy\wp-content\themes\phongthuy_themes\product.php:18
+Stack trace:
+#0 C:\xampp\htdocs\phongthuy\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\phongthuy\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\phongthuy\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\phongthuy\wp-content\themes\phongthuy_themes\product.php on line 18
+
+2023-09-15T12:45:57+00:00 CRITICAL Uncaught Error: Call to a member function get_attributes() on null in C:\xampp\htdocs\phongthuy\wp-content\themes\phongthuy_themes\product.php:18
+Stack trace:
+#0 C:\xampp\htdocs\phongthuy\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\phongthuy\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\phongthuy\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\phongthuy\wp-content\themes\phongthuy_themes\product.php on line 18
+
+2023-09-15T12:56:49+00:00 CRITICAL Uncaught Error: Call to a member function get_image_id() on null in C:\xampp\htdocs\phongthuy\wp-content\themes\phongthuy_themes\product.php:12
+Stack trace:
+#0 C:\xampp\htdocs\phongthuy\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\phongthuy\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\phongthuy\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\phongthuy\wp-content\themes\phongthuy_themes\product.php on line 12
+
+2023-09-15T12:56:56+00:00 CRITICAL Uncaught Error: Call to a member function get_image_id() on null in C:\xampp\htdocs\phongthuy\wp-content\themes\phongthuy_themes\product.php:12
+Stack trace:
+#0 C:\xampp\htdocs\phongthuy\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\phongthuy\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\phongthuy\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\phongthuy\wp-content\themes\phongthuy_themes\product.php on line 12
+
+2023-09-15T12:57:33+00:00 CRITICAL Uncaught Error: Call to a member function get_image_id() on null in C:\xampp\htdocs\phongthuy\wp-content\themes\phongthuy_themes\product.php:12
+Stack trace:
+#0 C:\xampp\htdocs\phongthuy\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\phongthuy\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\phongthuy\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\phongthuy\wp-content\themes\phongthuy_themes\product.php on line 12
+
+2023-09-15T12:58:58+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in C:\xampp\htdocs\phongthuy\wp-content\themes\phongthuy_themes\product.php:11
+Stack trace:
+#0 C:\xampp\htdocs\phongthuy\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\phongthuy\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\phongthuy\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\phongthuy\wp-content\themes\phongthuy_themes\product.php on line 11
+
+2023-09-15T13:29:51+00:00 CRITICAL Unmatched '}' in C:\xampp\htdocs\phongthuy\wp-content\themes\phongthuy_themes\product.php on line 35
+

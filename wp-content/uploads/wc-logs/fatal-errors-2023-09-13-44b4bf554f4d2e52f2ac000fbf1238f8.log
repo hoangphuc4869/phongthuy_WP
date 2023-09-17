@@ -1,0 +1,8 @@
+2023-09-13T03:16:18+00:00 CRITICAL Uncaught Error: Call to undefined function do_short() in C:\xampp\htdocs\phongthuy\wp-content\themes\phongthuy_themes\index.php:10
+Stack trace:
+#0 C:\xampp\htdocs\phongthuy\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\phongthuy\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\phongthuy\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\phongthuy\wp-content\themes\phongthuy_themes\index.php on line 10
+

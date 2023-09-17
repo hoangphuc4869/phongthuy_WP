@@ -1,0 +1,28 @@
+2023-09-17T02:29:43+00:00 CRITICAL Uncaught TypeError: preg_replace(): Argument #3 ($subject) must be of type array|string, WP_Term given in C:\xampp\htdocs\phongthuy\wp-includes\class-wp-query.php:824
+Stack trace:
+#0 C:\xampp\htdocs\phongthuy\wp-includes\class-wp-query.php(824): preg_replace('|[^0-9,-]|', '', Object(WP_Term))
+#1 C:\xampp\htdocs\phongthuy\wp-includes\class-wp-query.php(1868): WP_Query->parse_query()
+#2 C:\xampp\htdocs\phongthuy\wp-includes\class-wp-query.php(3800): WP_Query->get_posts()
+#3 C:\xampp\htdocs\phongthuy\wp-includes\class-wp-query.php(3932): WP_Query->query(Array)
+#4 C:\xampp\htdocs\phongthuy\wp-content\themes\phongthuy_themes\product.php(34): WP_Query->__construct(Array)
+#5 C:\xampp\htdocs\phongthuy\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\phongthuy\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\phongthuy\index.php(17): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\phongthuy\wp-includes\class-wp-query.php on line 824
+
+2023-09-17T02:41:54+00:00 CRITICAL Uncaught TypeError: urlencode(): Argument #1 ($string) must be of type string, array given in C:\xampp\htdocs\phongthuy\wp-includes\formatting.php:5663
+Stack trace:
+#0 C:\xampp\htdocs\phongthuy\wp-includes\formatting.php(5663): urlencode(Array)
+#1 C:\xampp\htdocs\phongthuy\wp-includes\class-wp-query.php(1179): wp_basename(Array)
+#2 C:\xampp\htdocs\phongthuy\wp-includes\class-wp-query.php(949): WP_Query->parse_tax_query(Array)
+#3 C:\xampp\htdocs\phongthuy\wp-includes\class-wp-query.php(1868): WP_Query->parse_query()
+#4 C:\xampp\htdocs\phongthuy\wp-includes\class-wp-query.php(3800): WP_Query->get_posts()
+#5 C:\xampp\htdocs\phongthuy\wp-includes\class-wp-query.php(3932): WP_Query->query(Array)
+#6 C:\xampp\htdocs\phongthuy\wp-content\themes\phongthuy_themes\product.php(34): WP_Query->__construct(Array)
+#7 C:\xampp\htdocs\phongthuy\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\phongthuy\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\phongthuy\index.php(17): require('C:\\xampp\\htdocs...')
+#10 {main}
+  thrown in C:\xampp\htdocs\phongthuy\wp-includes\formatting.php on line 5663
+

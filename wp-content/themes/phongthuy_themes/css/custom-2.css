@@ -1,0 +1,119 @@
+.my-calendar-month,
+#mc_list-mc-3d5a35dc491e7c24858a2c2a1c6047be,
+#mc_month-mc-3d5a35dc491e7c24858a2c2a1c6047be,
+#mc_week-mc-3d5a35dc491e7c24858a2c2a1c6047be,
+#mc_day-mc-3d5a35dc491e7c24858a2c2a1c6047be,
+#mc_cat_1-mc-3d5a35dc491e7c24858a2c2a1c6047be,
+#mc_cat_all-mc-3d5a35dc491e7c24858a2c2a1c6047be,
+#mc_print-mc-3d5a35dc491e7c24858a2c2a1c6047be,
+#mc_calendar_14_1-calendar-mc-3d5a35dc491e7c24858a2c2a1c6047be,
+.mc-date-switcher input {
+	display: none;
+}
+
+#mc-3d5a35dc491e7c24858a2c2a1c6047be nav,
+#mc-3d5a35dc491e7c24858a2c2a1c6047be .mc-row {
+	background: white;
+}
+
+#calendar-2023-09-14 .mc-date {
+	background: white;
+	color: black;
+}
+
+#mc-3d5a35dc491e7c24858a2c2a1c6047be-month {
+	margin-right: 10px;
+}
+
+.bg-clear {
+	padding-left: 30px;
+}
+
+.carousel_1 {
+	position: relative;
+}
+
+.item-banner {
+	height: 300px;
+	object-fit: cover;
+}
+
+.carousel_1 > .owl-dots {
+	display: none;
+}
+
+.btn-prev,
+.btn-next {
+	position: absolute;
+	top: 37%;
+	color: black;
+	font-size: 20px;
+	background-color: #fedc92;
+	padding: 5px 12px;
+}
+
+.btn-prev {
+	left: 0;
+}
+
+.btn-next {
+	right: 0;
+}
+
+.list-banner img {
+	width: 100%;
+	height: auto;
+	margin-bottom: 15px;
+}
+
+@media(max-width: 991px) {
+	.bg-clear {
+		padding-left: 0;
+		margin-top: 50px;
+	}
+
+	.list-banner img {
+		margin-bottom: 30px;
+	}
+}
+
+
+/*body trang giới thiệu*/
+
+.title-intro {
+	font-size: 50px;
+}
+
+.content-intro h1,
+.content-intro h2,
+.content-intro h3,
+.content-intro h4,
+.content-intro h5,
+.content-intro h6 {
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+
+@media(max-width: 1024px) {
+	.title-intro {
+		font-size: 38px;
+	}
+}
+
+@media(max-width: 991px) {
+	.title-intro {
+		color: white;
+		margin-top: 20px;
+		font-size: 30px;
+	}
+
+	.content-intro h1,
+	.content-intro h2,
+	.content-intro h3,
+	.content-intro h4,
+	.content-intro h5,
+	.content-intro h6 {
+		font-size: 25px;
+	}
+}
+

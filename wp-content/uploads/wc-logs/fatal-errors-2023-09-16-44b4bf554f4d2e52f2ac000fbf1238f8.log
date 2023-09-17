@@ -1,0 +1,26 @@
+2023-09-16T01:47:10+00:00 CRITICAL Uncaught Error: Call to a member function is_in_stock() on null in C:\xampp\htdocs\phongthuy\wp-content\themes\phongthuy_themes\product.php:24
+Stack trace:
+#0 C:\xampp\htdocs\phongthuy\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\phongthuy\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\phongthuy\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\phongthuy\wp-content\themes\phongthuy_themes\product.php on line 24
+
+2023-09-16T02:10:59+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_the_post_thumbnail_url() in C:\xampp\htdocs\phongthuy\wp-content\themes\phongthuy_themes\product.php:19
+Stack trace:
+#0 C:\xampp\htdocs\phongthuy\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\phongthuy\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\phongthuy\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\phongthuy\wp-content\themes\phongthuy_themes\product.php on line 19
+
+2023-09-16T04:30:32+00:00 CRITICAL Uncaught Error: Call to a member function is_in_stock() on bool in C:\xampp\htdocs\phongthuy\wp-content\themes\phongthuy_themes\product.php:53
+Stack trace:
+#0 C:\xampp\htdocs\phongthuy\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\phongthuy\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\phongthuy\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\phongthuy\wp-content\themes\phongthuy_themes\product.php on line 53
+
+2023-09-16T04:54:54+00:00 CRITICAL syntax error, unexpected variable "$args" in C:\xampp\htdocs\phongthuy\wp-content\themes\phongthuy_themes\product.php on line 24
+
